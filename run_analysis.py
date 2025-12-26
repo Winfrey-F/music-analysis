@@ -1,6 +1,8 @@
-import pretty_midi
+from analysis.preprocess import preprocess_midi
 
-pm = pretty_midi.PrettyMIDI("data/test.mid")
+notes = preprocess_midi("data/test.mid")
 
-print("Duration:", pm.get_end_time())
-print("Number of tracks:", len(pm.instruments))
+print(f"Total notes: {len(notes)}")
+print("First 5 notes:")
+for n in notes[:5]:
+    print(n)
