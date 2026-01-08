@@ -1,5 +1,3 @@
-# run_stage4_plus_stage5.py
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -93,3 +91,41 @@ for i, related in stage5_adjacency.items():
         related_str = ", ".join([str(r) for r in related])
         sec = stage4_sections[i]
         print(f"Section {i} ({sec['start']:.2f}-{sec['end']:.2f}s) repeats/varies with sections: {related_str}")
+
+        # ========= 10️⃣ Stage 6: Salient Events Detection =========
+from analysis.salient_events import detect_salient_events
+
+# Detect events using frame-level features + Stage4 sections
+stage6_events = detect_salient_events(frames, stage4_sections, peak_prominence=0.2)
+
+# ========= 11️⃣ Visualization including salient events =========
+plt.figure(figsize=(14, 5))
+
+# Feature curves
+plt.plot(times, [f.note_density for f in frames], label="Note Density")
+plt.plot(times, [f.mean_pitch for f in frames], label="Mean Pitch", color="orange")
+plt.plot(times, [f.pitch_range for f in frames], label="Pitch Range", color="green")
+
+# Stage4 section boundaries
+for sec in stage4_sections:
+    plt.axvline(sec["start"], color="red", linestyle="--", alpha=0.5)
+    plt.axvline(sec["end"], color="red", linestyle="--", alpha=0.5)
+
+# Salient events
+for ev in stage6_events:
+    if ev["type"].startswith("peak"):
+        plt.scatter(ev["time"], 0, color="black", marker="v", s=50, alpha=0.7, label="Peak Event")
+    elif ev["type"] in ("section_start", "section_end"):
+        plt.scatter(ev["time"], 0, color="blue", marker="o", s=50, alpha=0.6, label="Section Boundary Event")
+
+plt.xlabel("Time (s)")
+plt.ylabel("Feature Value")
+plt.title("Stage 6: Salient Events with Stage 4 Sections")
+plt.legend(loc="upper right")
+plt.tight_layout()
+plt.show()
+
+# ========= 12️⃣ Print Stage 6 events =========
+print("\nDetected Salient Events (Stage 6):")
+for ev in stage6_events:
+    print(f"{ev['time']:.2f}s: {ev['type']} (strength={ev['strength']:.2f})")

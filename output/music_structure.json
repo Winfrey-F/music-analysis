@@ -1,0 +1,538 @@
+{
+    "skeleton_sections": [
+        {
+            "start": 0.0,
+            "end": 77.5
+        }
+    ],
+    "ssm_sections": [
+        {
+            "start": 0.0,
+            "end": 4.0
+        },
+        {
+            "start": 4.0,
+            "end": 76.0
+        }
+    ],
+    "repetition_adjacency": {
+        "0": []
+    },
+    "salient_events": [
+        {
+            "time": 0.0,
+            "type": "section_start",
+            "strength": 1.0
+        },
+        {
+            "time": 1.0,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 3.0,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 3.5,
+            "type": "peak_pitch_range",
+            "strength": 12.0
+        },
+        {
+            "time": 6.0,
+            "type": "peak_note_density",
+            "strength": 10.0
+        },
+        {
+            "time": 6.0,
+            "type": "peak_mean_pitch",
+            "strength": 4.877717391304351
+        },
+        {
+            "time": 6.5,
+            "type": "peak_pitch_range",
+            "strength": 10.0
+        },
+        {
+            "time": 7.0,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 9.0,
+            "type": "peak_note_density",
+            "strength": 10.0
+        },
+        {
+            "time": 9.0,
+            "type": "peak_mean_pitch",
+            "strength": 0.6570048309178702
+        },
+        {
+            "time": 10.0,
+            "type": "peak_pitch_range",
+            "strength": 14.0
+        },
+        {
+            "time": 10.5,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 10.5,
+            "type": "peak_mean_pitch",
+            "strength": 3.111111111111107
+        },
+        {
+            "time": 12.5,
+            "type": "peak_mean_pitch",
+            "strength": 0.50555555555556
+        },
+        {
+            "time": 13.5,
+            "type": "peak_note_density",
+            "strength": 10.0
+        },
+        {
+            "time": 14.0,
+            "type": "peak_pitch_range",
+            "strength": 8.0
+        },
+        {
+            "time": 14.5,
+            "type": "peak_mean_pitch",
+            "strength": 4.422222222222217
+        },
+        {
+            "time": 16.0,
+            "type": "peak_note_density",
+            "strength": 7.0
+        },
+        {
+            "time": 16.5,
+            "type": "peak_pitch_range",
+            "strength": 4.0
+        },
+        {
+            "time": 17.0,
+            "type": "peak_mean_pitch",
+            "strength": 1.538461538461533
+        },
+        {
+            "time": 18.0,
+            "type": "peak_note_density",
+            "strength": 10.0
+        },
+        {
+            "time": 18.0,
+            "type": "peak_mean_pitch",
+            "strength": 1.4227053140096615
+        },
+        {
+            "time": 20.5,
+            "type": "peak_note_density",
+            "strength": 20.0
+        },
+        {
+            "time": 20.5,
+            "type": "peak_mean_pitch",
+            "strength": 5.95192307692308
+        },
+        {
+            "time": 21.0,
+            "type": "peak_pitch_range",
+            "strength": 6.0
+        },
+        {
+            "time": 22.5,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 22.5,
+            "type": "peak_mean_pitch",
+            "strength": 0.6677631578947398
+        },
+        {
+            "time": 24.0,
+            "type": "peak_note_density",
+            "strength": 4.0
+        },
+        {
+            "time": 24.0,
+            "type": "peak_mean_pitch",
+            "strength": 3.4722222222222214
+        },
+        {
+            "time": 24.5,
+            "type": "peak_pitch_range",
+            "strength": 14.0
+        },
+        {
+            "time": 25.0,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 27.0,
+            "type": "peak_note_density",
+            "strength": 10.0
+        },
+        {
+            "time": 28.5,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 28.5,
+            "type": "peak_mean_pitch",
+            "strength": 13.233333333333334
+        },
+        {
+            "time": 28.5,
+            "type": "peak_pitch_range",
+            "strength": 51.0
+        },
+        {
+            "time": 30.0,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 30.5,
+            "type": "peak_mean_pitch",
+            "strength": 1.496732026143789
+        },
+        {
+            "time": 31.5,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 31.5,
+            "type": "peak_mean_pitch",
+            "strength": 1.9444444444444429
+        },
+        {
+            "time": 31.5,
+            "type": "peak_pitch_range",
+            "strength": 5.0
+        },
+        {
+            "time": 33.0,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 34.0,
+            "type": "peak_mean_pitch",
+            "strength": 5.633928571428569
+        },
+        {
+            "time": 34.5,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 34.5,
+            "type": "peak_pitch_range",
+            "strength": 4.0
+        },
+        {
+            "time": 36.0,
+            "type": "peak_pitch_range",
+            "strength": 51.0
+        },
+        {
+            "time": 37.0,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 37.0,
+            "type": "peak_mean_pitch",
+            "strength": 2.0559440559440603
+        },
+        {
+            "time": 38.5,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 38.5,
+            "type": "peak_mean_pitch",
+            "strength": 1.0625
+        },
+        {
+            "time": 40.0,
+            "type": "peak_pitch_range",
+            "strength": 4.0
+        },
+        {
+            "time": 40.5,
+            "type": "peak_note_density",
+            "strength": 9.0
+        },
+        {
+            "time": 40.5,
+            "type": "peak_mean_pitch",
+            "strength": 7.73444976076555
+        },
+        {
+            "time": 41.5,
+            "type": "peak_pitch_range",
+            "strength": 1.0
+        },
+        {
+            "time": 42.5,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 42.5,
+            "type": "peak_mean_pitch",
+            "strength": 4.212499999999999
+        },
+        {
+            "time": 42.5,
+            "type": "peak_pitch_range",
+            "strength": 2.0
+        },
+        {
+            "time": 44.0,
+            "type": "peak_mean_pitch",
+            "strength": 3.1274509803921617
+        },
+        {
+            "time": 45.0,
+            "type": "peak_note_density",
+            "strength": 5.0
+        },
+        {
+            "time": 45.0,
+            "type": "peak_pitch_range",
+            "strength": 6.0
+        },
+        {
+            "time": 47.5,
+            "type": "peak_mean_pitch",
+            "strength": 1.75
+        },
+        {
+            "time": 48.0,
+            "type": "peak_pitch_range",
+            "strength": 2.0
+        },
+        {
+            "time": 49.5,
+            "type": "peak_note_density",
+            "strength": 20.0
+        },
+        {
+            "time": 49.5,
+            "type": "peak_mean_pitch",
+            "strength": 5.508333333333333
+        },
+        {
+            "time": 51.0,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 51.0,
+            "type": "peak_mean_pitch",
+            "strength": 1.6555555555555586
+        },
+        {
+            "time": 51.5,
+            "type": "peak_pitch_range",
+            "strength": 7.0
+        },
+        {
+            "time": 52.0,
+            "type": "peak_note_density",
+            "strength": 5.0
+        },
+        {
+            "time": 53.0,
+            "type": "peak_mean_pitch",
+            "strength": 0.7794871794871767
+        },
+        {
+            "time": 54.0,
+            "type": "peak_note_density",
+            "strength": 6.0
+        },
+        {
+            "time": 54.5,
+            "type": "peak_mean_pitch",
+            "strength": 1.142857142857146
+        },
+        {
+            "time": 55.5,
+            "type": "peak_note_density",
+            "strength": 5.0
+        },
+        {
+            "time": 55.5,
+            "type": "peak_mean_pitch",
+            "strength": 0.29999999999999716
+        },
+        {
+            "time": 56.5,
+            "type": "peak_mean_pitch",
+            "strength": 5.62222222222222
+        },
+        {
+            "time": 56.5,
+            "type": "peak_pitch_range",
+            "strength": 3.0
+        },
+        {
+            "time": 57.0,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 58.5,
+            "type": "peak_note_density",
+            "strength": 10.0
+        },
+        {
+            "time": 58.5,
+            "type": "peak_mean_pitch",
+            "strength": 10.063768115942025
+        },
+        {
+            "time": 58.5,
+            "type": "peak_pitch_range",
+            "strength": 51.0
+        },
+        {
+            "time": 60.0,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 61.0,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 61.5,
+            "type": "peak_pitch_range",
+            "strength": 5.0
+        },
+        {
+            "time": 62.0,
+            "type": "peak_mean_pitch",
+            "strength": 2.6334841628959254
+        },
+        {
+            "time": 62.5,
+            "type": "peak_pitch_range",
+            "strength": 51.0
+        },
+        {
+            "time": 63.0,
+            "type": "peak_note_density",
+            "strength": 5.0
+        },
+        {
+            "time": 64.0,
+            "type": "peak_note_density",
+            "strength": 5.0
+        },
+        {
+            "time": 64.0,
+            "type": "peak_mean_pitch",
+            "strength": 17.166666666666664
+        },
+        {
+            "time": 65.0,
+            "type": "peak_pitch_range",
+            "strength": 3.0
+        },
+        {
+            "time": 65.5,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 67.0,
+            "type": "peak_pitch_range",
+            "strength": 2.0
+        },
+        {
+            "time": 67.5,
+            "type": "peak_note_density",
+            "strength": 8.0
+        },
+        {
+            "time": 67.5,
+            "type": "peak_mean_pitch",
+            "strength": 0.6339285714285694
+        },
+        {
+            "time": 68.5,
+            "type": "peak_mean_pitch",
+            "strength": 2.24013157894737
+        },
+        {
+            "time": 69.0,
+            "type": "peak_note_density",
+            "strength": 3.0
+        },
+        {
+            "time": 69.5,
+            "type": "peak_pitch_range",
+            "strength": 5.0
+        },
+        {
+            "time": 70.5,
+            "type": "peak_note_density",
+            "strength": 8.0
+        },
+        {
+            "time": 71.0,
+            "type": "peak_mean_pitch",
+            "strength": 15.811111111111117
+        },
+        {
+            "time": 72.0,
+            "type": "peak_note_density",
+            "strength": 1.0
+        },
+        {
+            "time": 72.0,
+            "type": "peak_pitch_range",
+            "strength": 7.0
+        },
+        {
+            "time": 73.5,
+            "type": "peak_note_density",
+            "strength": 2.0
+        },
+        {
+            "time": 74.5,
+            "type": "peak_note_density",
+            "strength": 6.0
+        },
+        {
+            "time": 74.5,
+            "type": "peak_pitch_range",
+            "strength": 2.0
+        },
+        {
+            "time": 75.0,
+            "type": "peak_mean_pitch",
+            "strength": 8.333333333333336
+        },
+        {
+            "time": 77.5,
+            "type": "section_end",
+            "strength": 1.0
+        }
+    ]
+}
